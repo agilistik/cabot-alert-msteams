@@ -5,8 +5,8 @@ This is an alert plugin for the cabot service monitoring tool. It allows you to 
 
 ## Installation
 Enter the cabot virtual environment.
- sudo pip install https://github.com/agilistik/cabot-msteams.git
- foreman stop
- Add cabot_alert_msteams to the installed apps in settings.py
- foreman run python manage.py syncdb
- foreman start
+- sudo pip install https://github.com/agilistik/cabot-msteams.git
+- foreman stop
+- Add cabot_alert_msteams to the installed apps in settings.py
+- foreman run python manage.py syncdb
+- foreman start
